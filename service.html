@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Section Preview</title>
+    <style>
+        /* Service section styles */
+        .service {
+            padding: 100px 0 70px;
+            background: #f8f9fa;
+        }
+        .section-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .section-header p {
+            font-size: 16px;
+            color: #999999;
+            text-transform: capitalize;
+        }
+        .section-header p span {
+            color: #4720d1;
+        }
+        .section-header h2 {
+            text-transform: capitalize;
+            font-size: 35px;
+            position: relative;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+        }
+        .section-header h2:before {
+            position: absolute;
+            content: "";
+            width: 80px;
+            height: 3px;
+            background: #f8c01b;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .single-service-item {
+            text-align: center;
+            padding: 30px 20px;
+            margin-bottom: 30px;
+            background: #fff;
+            transition: .5s; 
+            box-shadow: 0 0 20px rgba(0,0,0,.1);
+            border-radius: 5px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .single-service-item:hover {
+            box-shadow: 0 5px 20px rgba(0,0,0,.2);
+            transform: translateY(-5px);
+        }
+        .single-service-icon {
+            display: inline-block;
+            color: #f8c01b;
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+        .single-service-item h2 {
+            font-size: 20px;
+            font-weight: 600;
+            text-transform: capitalize;
+            margin-bottom: 15px;
+        }
+        .single-service-item h2 a {
+            color: #444;
+            text-decoration: none;
+            transition: .4s;
+        }
+        .single-service-item h2 a:hover {
+            color: #f8c01b;
+        }
+        .single-service-item h2 a span {
+            text-transform: lowercase;
+        }
+        .single-service-item p {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.8;
+        }
+        .service-btn {
+            display: inline-block;
+            background: #f8c01b;
+            color: #fff;
+            border: none;
+            padding: 10px 25px;
+            text-transform: capitalize;
+            font-weight: 500;
+            cursor: pointer;
+            transition: .3s;
+            margin-top: 15px;
+            border-radius: 3px;
+            text-decoration: none;
+        }
+        .service-btn:hover {
+            background: #e6b01a;
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Service section start -->
+<section id="service" class="service">
+    <div class="container">
+        <div class="section-header">
+            <p>what we <span>offer</span></p>
+            <h2>our services</h2>
+        </div>
+        
+        <div class="service-content">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-service-item">
+                        <div class="single-service-icon">
+                            <i class="flaticon-car"></i>
+                        </div>
+                        <h2><a href="#">largest dealership <span>of</span> cars</a></h2>
+                        <p>
+                            We offer the widest selection of premium and luxury vehicles with transparent pricing and unmatched customer service. Find your dream car among our extensive inventory.
+                        </p>
+                        <a href="#" class="service-btn">learn more</a>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-service-item">
+                        <div class="single-service-icon">
+                            <i class="flaticon-car-repair"></i>
+                        </div>
+                        <h2><a href="#">unlimited repair warranty</a></h2>
+                        <p>
+                            Drive with confidence knowing your vehicle is covered by our comprehensive unlimited repair warranty. Our expert technicians use only genuine parts for all repairs.
+                        </p>
+                        <a href="#" class="service-btn">learn more</a>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-service-item">
+                        <div class="single-service-icon">
+                            <i class="flaticon-car-1"></i>
+                        </div>
+                        <h2><a href="#">insurance support</a></h2>
+                        <p>
+                            Our dedicated insurance specialists will help you find the perfect coverage plan for your vehicle. We work with top insurers to secure the best rates for our clients.
+                        </p>
+                        <a href="#" class="service-btn">learn more</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-service-item">
+                        <div class="single-service-icon">
+                            <i class="flaticon-car-wash"></i>
+                        </div>
+                        <h2><a href="#">premium detailing</a></h2>
+                        <p>
+                            Our professional detailing service will make your car look showroom-new. We offer complete interior and exterior cleaning packages using premium products.
+                        </p>
+                        <a href="#" class="service-btn">learn more</a>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-service-item">
+                        <div class="single-service-icon">
+                            <i class="flaticon-key"></i>
+                        </div>
+                        <h2><a href="#">easy financing options</a></h2>
+                        <p>
+                            Get behind the wheel faster with our flexible financing solutions. Our finance experts work with multiple lenders to find the best rates and terms for your budget.
+                        </p>
+                        <a href="#" class="service-btn">learn more</a>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-service-item">
+                        <div class="single-service-icon">
+                            <i class="flaticon-wheel"></i>
+                        </div>
+                        <h2><a href="#">parts & accessories</a></h2>
+                        <p>
+                            Enhance your vehicle with our extensive selection of genuine parts and accessories. From performance upgrades to style enhancements, we have everything you need.
+                        </p>
+                        <a href="#" class="service-btn">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Service section end -->
+
+</body>
+</html>
